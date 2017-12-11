@@ -5,9 +5,16 @@
 </template>
 
 <script>
+  import { mapActions } from 'vuex'
   export default {
     name: 'home',
-    data: () => ({})
+    data: () => ({}),
+    created() {
+      this.test()
+    },
+    methods: {
+      ...mapActions(['test'])
+    }
   }
 </script>
 
