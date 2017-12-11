@@ -1,6 +1,6 @@
 # mcjzy_web
 
-> 萌宠集中营
+> A Vue.js project
 
 ## Build Setup
 
